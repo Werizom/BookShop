@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop", "BookShop\BookShop.csproj", "{2C08CD79-9C44-455A-B661-EBFB61315722}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3B63451C-223A-4600-8479-33F23AC92EA3} = {3B63451C-223A-4600-8479-33F23AC92EA3}
+		{59E54E58-1ED6-4381-89E2-4419C7BE3085} = {59E54E58-1ED6-4381-89E2-4419C7BE3085}
+		{76F32D5C-3E6B-4597-95E5-B114463096C8} = {76F32D5C-3E6B-4597-95E5-B114463096C8}
+		{81C84061-8900-4DA2-82FD-9AAB7F8199F8} = {81C84061-8900-4DA2-82FD-9AAB7F8199F8}
+		{D73AA1CC-EFDA-4868-83B6-084E38BBA767} = {D73AA1CC-EFDA-4868-83B6-084E38BBA767}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Utility", "BookShop.Utility\BookShop.Utility.csproj", "{81C84061-8900-4DA2-82FD-9AAB7F8199F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Models", "BookShop.Models\BookShop.Models.csproj", "{59E54E58-1ED6-4381-89E2-4419C7BE3085}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.DataAccess", "BookShop.DataAccess\BookShop.DataAccess.csproj", "{D73AA1CC-EFDA-4868-83B6-084E38BBA767}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookShop.Azure", "BookShop.Azure\BookShop.Azure.csproj", "{3B63451C-223A-4600-8479-33F23AC92EA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookShop.Configuration", "BookShop.Configuration\BookShop.Configuration.csproj", "{76F32D5C-3E6B-4597-95E5-B114463096C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C08CD79-9C44-455A-B661-EBFB61315722}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C08CD79-9C44-455A-B661-EBFB61315722}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C08CD79-9C44-455A-B661-EBFB61315722}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C08CD79-9C44-455A-B661-EBFB61315722}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81C84061-8900-4DA2-82FD-9AAB7F8199F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81C84061-8900-4DA2-82FD-9AAB7F8199F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81C84061-8900-4DA2-82FD-9AAB7F8199F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81C84061-8900-4DA2-82FD-9AAB7F8199F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59E54E58-1ED6-4381-89E2-4419C7BE3085}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59E54E58-1ED6-4381-89E2-4419C7BE3085}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59E54E58-1ED6-4381-89E2-4419C7BE3085}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59E54E58-1ED6-4381-89E2-4419C7BE3085}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D73AA1CC-EFDA-4868-83B6-084E38BBA767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D73AA1CC-EFDA-4868-83B6-084E38BBA767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D73AA1CC-EFDA-4868-83B6-084E38BBA767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D73AA1CC-EFDA-4868-83B6-084E38BBA767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B63451C-223A-4600-8479-33F23AC92EA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B63451C-223A-4600-8479-33F23AC92EA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B63451C-223A-4600-8479-33F23AC92EA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B63451C-223A-4600-8479-33F23AC92EA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76F32D5C-3E6B-4597-95E5-B114463096C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76F32D5C-3E6B-4597-95E5-B114463096C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76F32D5C-3E6B-4597-95E5-B114463096C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76F32D5C-3E6B-4597-95E5-B114463096C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19349385-20E3-476D-932A-CB5AB5B28AE4}
+	EndGlobalSection
+EndGlobal
